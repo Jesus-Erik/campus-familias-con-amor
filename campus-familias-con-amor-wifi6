@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Familias Con Amor - Versión Nocturna Elegante</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#0A0A0A;font-family:'Outfit',sans-serif;color:white;min-height:100vh;display:flex;flex-direction:column;align-items:center;text-align:center;overflow-x:hidden}
+    .glow{position:absolute;width:600px;height:600px;background:radial-gradient(circle, rgba(255,184,77,0.25) 0%, rgba(26,185,185,0.15) 40%, transparent 70%);top:10%;left:50%;transform:translateX(-50%);filter:blur(20px);pointer-events:none}
+    .container{max-width:480px;width:92%;padding:30px 20px 20px;position:relative;z-index:2}
+    .logo-wrapper{position:relative;width:320px;height:320px;margin:0 auto 20px;filter: drop-shadow(0 0 35px rgba(255,200,80,0.6))}
+    .logo-wrapper img{width:100%;height:100%;object-fit:contain;animation: float 3s ease-in-out infinite}
+    @keyframes float {0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-8px) scale(1.02)}}
+    h1{font-size:42px;font-weight:800;line-height:0.95;margin:15px 0;background: linear-gradient(90deg, #FFB85C 0%, #1AB9B9 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    h2{font-size:34px;font-weight:800;line-height:1.1;margin:20px 0 25px}
+    h2 span{background: linear-gradient(90deg, #D4A76A 0%, #6EC8C8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .subtitle{font-size:16px;font-weight:300;line-height:1.6;color:#E0E0E0;margin-bottom:35px;padding:0 10px}
+    .btn{display:inline-block;background: linear-gradient(135deg, #D4A76A 0%, #FFD78A 50%, #C99A5A 100%);color:#1A1A1A;font-weight:700;font-size:18px;padding:16px 40px;border-radius:50px;text-decoration:none;box-shadow:0 0 30px rgba(212,167,106,0.5);transition:all 0.3s;margin-bottom:40px}
+    .btn:hover{transform:scale(1.05);box-shadow:0 0 45px rgba(212,167,106,0.7)}
+    .card{background: rgba(255,255,255,0.05);border:1px solid rgba(212,167,106,0.4);border-radius:20px;padding:16px 20px;display:flex;align-items:center;gap:15px;backdrop-filter:blur(10px);margin-bottom:30px;text-align:left}
+    .avatar{width:56px;height:56px;background: linear-gradient(135deg, #FF9F45, #1AB9B9);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;flex-shrink:0}
+    .card h3{font-size:15px;font-weight:700}
+    .card p{font-size:12px;color:#D4A76A;letter-spacing:1px;margin-top:2px}
+    .card small{font-size:11px;color:#6EC8C8}
+    .year{margin-left:auto;color:#D4A76A;font-size:12px}
+    footer{color:#888;font-size:14px;margin:20px 0 80px}
+    .whatsapp{position:fixed;bottom:25px;right:25px;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 15px rgba(0,0,0,0.4);z-index:10;text-decoration:none;font-size:30px}
+  </style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="container">
+    <div class="logo-wrapper">
+      <img src="logo.png" alt="Familias con Amor F con corona">
+    </div>
+    <h1>Familias<br>con Amor</h1>
+    <h2>Experimentando El Amor<br><span>del Reino de Dios</span><br>en la Tierra.</h2>
+   
